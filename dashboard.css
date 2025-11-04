@@ -5,6 +5,7 @@ body {
     height: 844px;
     margin: 0;
     padding: 0;
+    font-family: Lato;
 }
 
 p {
@@ -16,6 +17,7 @@ p {
     margin-left: 311px;
     margin-top: 37px;
     background: #fff;
+    cursor: pointer;
 }
 
 .title-dashboard {
@@ -42,6 +44,7 @@ p {
     margin-left: 43px;
     margin-top: 55px;
     display: flex;
+    cursor: pointer;
 }
 
 .img-planta-dashboard {
@@ -136,6 +139,7 @@ p {
     margin-top: 80px;
     margin-left: 46px;
     margin-bottom: 112px;
+    cursor: pointer;
 }
 
 .agregar-maceta-text {
@@ -163,4 +167,84 @@ p {
     aspect-ratio: 1/1;
     margin-left: 13px;
     margin-top: 15px;
+}
+
+/* Del modaaaaal */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.modal-overlay.open {
+    display: flex;
+}
+
+.modal {
+    width: 320px;
+    max-width: calc(100% - 40px);
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 18px 18px 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-title {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    color: #292929;
+    margin-bottom: 12px;
+}
+
+.modal-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.modal-label {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+.modal-value {
+    font-size: 16px;
+    color: #292929;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.btn-logout {
+    background: #447B51;
+    color: #fff;
 }

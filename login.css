@@ -117,6 +117,7 @@ p {
     background: #447B51;
     margin-left: 46px;
     margin-top: 48px;
+    cursor: pointer;
 }
 
 .iniciar-sesion-text {
@@ -149,4 +150,5 @@ p {
     line-height: normal;
     letter-spacing: 0.48px;
     margin-top: 25px;
+    cursor: pointer;
 }

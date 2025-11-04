@@ -46,6 +46,34 @@
         </p>
         <img src="/assets/add-circle.svg" alt="" class="icon-add">
     </div>
+
+    <!-- Modalitooooo -->
+    <div class="modal-overlay" id="userModal" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalClose" aria-label="Cerrar">×</button>
+            <h2 id="modalTitle" class="modal-title">Perfil</h2>
+
+            <div class="modal-row">
+                <label class="modal-label">Nombre y apellidos</label>
+                <div class="modal-value" id="modalName">Laura Martínez</div>
+            </div>
+
+            <div class="modal-row">
+                <label class="modal-label">Correo</label>
+                <div class="modal-value" id="modalEmail">laura@example.com</div>
+            </div>
+
+            <div class="modal-row">
+                <label class="modal-label">Número de macetas</label>
+                <div class="modal-value" id="modalPots">3</div>
+            </div>
+
+            <div class="modal-actions">
+                <button class="btn btn-logout" id="btnLogout">Cerrar sesión</button>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="main.js"></script>
 
 </html>
