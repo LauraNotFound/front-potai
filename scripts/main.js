@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var iniciar = document.querySelector('.iniciar-sesion');
     if (iniciar) {
         iniciar.addEventListener('click', function () {
-            window.location.href = 'dashboard.html';
+            window.location.href = '/html/dashboard.html';
         });
     }
 });
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var iniciar = document.querySelector('.crear-cuenta');
     if (iniciar) {
         iniciar.addEventListener('click', function () {
-            window.location.href = 'registro.html';
+            window.location.href = '/html/registro.html';
         });
     }
 });
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var iniciar = document.querySelector('.ya-tienes-cuenta');
     if (iniciar) {
         iniciar.addEventListener('click', function () {
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
         });
     }
 });
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var iniciar = document.querySelector('.registrarse');
     if (iniciar) {
         iniciar.addEventListener('click', function () {
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
         });
     }
 });
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (btnLogout) {
         btnLogout.addEventListener('click', function () {
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
         });
     }
 });
