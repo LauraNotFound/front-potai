@@ -1,8 +1,3 @@
-/**
- * Main.js - Lógica principal del frontend integrada con APIs
- * Maneja todas las interacciones del usuario y comunicación con el backend y modelo ML
- */
-
 // ========================================
 // LOGIN: Integración con API
 // ========================================
