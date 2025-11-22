@@ -14,17 +14,17 @@
 
     <div class="nombres">
         <img class="nombres-icon" src="/assets/person.svg" alt="Ícono de persona">
-        <p class="person-text">Nombres y Apellidos</p>
+        <input type="text" class="person-input" id="registerName" placeholder="Nombres y Apellidos" required>
     </div>
 
     <div class="correo">
         <img class="correo-icon" src="/assets/correo-icon.svg" alt="Ícono de correo">
-        <p class="correo-text">Correo electrónico</p>
+        <input type="email" class="correo-input" id="registerEmail" placeholder="Correo electrónico" required>
     </div>
 
     <div class="password">
         <img class="password-icon" src="/assets/password.svg" alt="Ícono de contraseña">
-        <p class="password-text">Contraseña</p>
+        <input type="password" class="password-input" id="registerPassword" placeholder="Contraseña" required>
     </div>
 
     <div class="tyc">
@@ -39,6 +39,11 @@
     <p class="ya-tienes-cuenta">
         ¿Ya tienes cuenta?
     </p>
+
+    <!-- Scripts de configuración y servicios -->
+    <script src="/config/api.js"></script>
+    <script src="/services/api.js"></script>
+    <script src="/services/auth.js"></script>
 </body>
 <script src="/scripts/main.js"></script>
 

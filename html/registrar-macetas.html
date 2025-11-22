@@ -22,7 +22,8 @@
         <p class="label-apodo">Ingresa el apodo de tu planta</p>
         <div class="apodo-plant">
             <img class="apodo-plant-icon" src="/assets/plant.svg" alt="Ícono de planta">
-            <p class="apodo-plant-text">Floripondio del cuarto</p>
+            <input type="text" class="apodo-plant-input" id="plantNickname" placeholder="Floripondio del cuarto"
+                required>
         </div>
     </div>
 
@@ -30,13 +31,19 @@
         <p class="label-codigo">Ingresa el código de tu PotAI</p>
         <div class="codigo-maceta">
             <img class="codigo-maceta-icon" src="/assets/flowerpot.svg" alt="Ícono de maceta">
-            <p class="codigo-maceta-text">Floripondio del cuarto</p>
+            <input type="text" class="codigo-maceta-input" id="potCode" placeholder="ABC123" required>
         </div>
     </div>
 
     <div class="guardar-potai">
         <p class="guardar-potai-text">Guardar</p>
     </div>
+
+    <!-- Scripts de configuración y servicios -->
+    <script src="/config/api.js"></script>
+    <script src="/services/api.js"></script>
+    <script src="/services/auth.js"></script>
+    <script src="/services/plants.js"></script>
 </body>
 <script src="/scripts/main.js"></script>
 

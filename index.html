@@ -14,12 +14,12 @@
 
     <div class="correo">
         <img class="correo-icon" src="/assets/correo-icon.svg" alt="Ícono de correo">
-        <p class="correo-text">Correo electrónico</p>
+        <input type="email" class="correo-input" id="loginEmail" placeholder="Correo electrónico" required>
     </div>
 
     <div class="password">
         <img class="password-icon" src="/assets/password.svg" alt="Ícono de contraseña">
-        <p class="password-text">Contraseña</p>
+        <input type="password" class="password-input" id="loginPassword" placeholder="Contraseña" required>
     </div>
 
     <p class="olvidaste-contrasenia">¿Olvidaste tu contraseña?</p>
@@ -31,6 +31,11 @@
     <p class="crear-cuenta">
         Crear una cuenta
     </p>
+
+    <!-- Scripts de configuración y servicios -->
+    <script src="/config/api.js"></script>
+    <script src="/services/api.js"></script>
+    <script src="/services/auth.js"></script>
     <script src="/scripts/main.js"></script>
 </body>
 
